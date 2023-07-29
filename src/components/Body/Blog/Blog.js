@@ -10,7 +10,7 @@ const YourComponent = () => {
   return (
     <div className="blog-container">
       <h3>
-        Our blogs <a href="">SAOW ALL</a>
+        Our blogs <a href="">SHOW ALL</a>
       </h3>
 
       <div className="blog-card">
@@ -22,6 +22,7 @@ const YourComponent = () => {
             style={{ height: "200px", objectFit: "cover" }}
           />
           <div className="card-body">
+            LANGUAGE
             <h5 className="card-title">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </h5>

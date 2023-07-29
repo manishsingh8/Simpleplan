@@ -5,6 +5,7 @@ import Footer from './Footer/Footer';
 import Category from './Body/Category/Category';
 import Blog from './Body/Blog/Blog';
 import Class from './Body/Class/Class';
+import Plan from './Body/Plan/Plan';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Header />
       <Body />
       <button style={{borderRadius:"50%",position:"absolute",top:"80vh",bottom:"10vh",left:"90vw"}}>floating</button>
+      <Plan />
       <Category />
       <Class />
       <Blog />
