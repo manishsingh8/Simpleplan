@@ -1,15 +1,13 @@
 import React from 'react';
 import './body.css';
-import img from '../images/image1.png';
+import img from '../../images/image1.png';
 
 const Body = () => {
   return (
     <div className='body-container'>
      <div className='body-inner'>
          <div className='body-heading'>
-           <h3>Hobbies</h3>
-           <h3>Happiness</h3>
-           <h3>Home</h3>
+           <h3>Hobbies ❤️ Happiness ❤️ Home</h3>
          </div>
          <div className='body-para'>
           A Nordic Startup which brings incredibly<br/> intresting hobbies

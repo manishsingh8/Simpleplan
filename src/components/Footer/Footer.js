@@ -5,7 +5,7 @@ import { BsInstagram } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { BsYoutube } from "react-icons/bs";
-import img from "../images/products.png";
+import img from "../../images/products.png";
 
 const Footer = () => {
   return (

@@ -1,13 +1,17 @@
 import React from 'react';
-import Header from './Header';
-import Body from './Body';
+import Header from './Header/Header';
+import Body from './Body/Body';
+import Footer from './Footer/Footer';
+import Category from './Body/Category/Category';
 
 const Home = () => {
   return (
-    <div>
+    <div style={{marginLeft:"10%",marginRight:"10%"}}>
       <Header />
       <Body />
-      <button style={{borderRadius:"50%",position:"absolute",top:"80%",bottom:"10%",left:"90%"}}>floating</button>
+      <button style={{borderRadius:"50%",position:"absolute",top:"80vh",bottom:"10vh",left:"90vw"}}>floating</button>
+      <Category />
+      <Footer />
     </div>
   )
 }
