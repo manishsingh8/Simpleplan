@@ -1,0 +1,53 @@
+.explore-container{
+    margin-top: 40px;
+    width:100%;
+
+    .explore-page{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color:#2430A0;
+    }
+
+    .explore-card{
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 40px;
+        .exp-img{
+            width:20%;
+            
+            div{
+               width:100%;
+               height:30%;
+               display: flex;
+               justify-content: center;
+                img{
+                   width:60px;
+                   height:60px;
+                   object-fit: cover;
+               }
+               img:hover{
+                cursor: pointer;
+                border: 2px solid skyblue;
+                border-radius: 4px;
+               }
+              
+            }
+            h6{
+                color:#2430A0;
+                font-size:20px ;
+                margin-top: 20px;
+            }
+            p{
+                text-align:justify;
+                color:#51557D;
+                font-size: 14px;
+               }
+
+        }
+
+    }
+}
