@@ -4,6 +4,7 @@ import Body from './Body/Body';
 import Footer from './Footer/Footer';
 import Category from './Body/Category/Category';
 import Blog from './Body/Blog/Blog';
+import Class from './Body/Class/Class';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Body />
       <button style={{borderRadius:"50%",position:"absolute",top:"80vh",bottom:"10vh",left:"90vw"}}>floating</button>
       <Category />
+      <Class />
       <Blog />
       <Footer />
     </div>
