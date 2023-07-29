@@ -7,9 +7,8 @@ import img3 from "../../../images/pc1.avif";
 import img4 from "../../../images/pc2.jpg";
 import img5 from "../../../images/teacher.jpg";
 import img6 from "../../../images/tradi.jpg";
-import w from '../../../images/w5.jpg';
-import w2 from '../../../images/w2.jpg';
-import w3 from '../../../images/w3.jpg';
+import LoveCon from "./LoveContainer/LoveCon";
+
 
 const Class = () => {
   const images = [
@@ -22,51 +21,25 @@ const Class = () => {
   ];
   
   return (
-    <div>
       <div className="class-mainbody">
       <h3>Six reason to choose our class</h3>
       <div className="class-container">
-        <div className="class-row">
-          {images.map((imageName, index) => (
-            <div
-              className="col-4 d-flex"
-              key={index}
-              style={{ flexDirection: "column" }}
-            >
-              <div className="class-card flex-fill img-card">
-                <img
-                  src={imageName.image}
-                  className="card-img-top card-img"
-                  alt={`Image ${index + 1}`}
-                />
+      <div className="class-row">
+        {images.map((imageName, index) => (
+            <div className="class-card flex-fill col-4" key={index}>
+              <img
+                src={imageName.image}
+                className="card-img"
+                alt={`Image ${index + 1}`}
+              />
               <p>{imageName.name}</p>
-              </div>
             </div>
-          ))}
-          <div className="col-3"></div>
-        </div>
+        ))}
       </div>
-    <h3>Love from community</h3>
-    <div className="review">
-        <div >
-        <img src={w} alt="" />
-        <h6>Joya</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing<br/> elit. Reprehenderit aut quae officia</p>
-        </div>
-        <div>
-        <img src={w2} alt="" />
-        <h6>Kethrin</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing<br/> elit. Reprehenderit aut quae officia</p>
-        </div>
-        <div>
-        <img src={w3} alt="" />
-        <h6>Rechal</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing<br/> elit. Reprehenderit aut quae officia</p>
-        </div>
-        
     </div>
+    <LoveCon />
     </div>
-    </div>
+   
   );
 };
 
