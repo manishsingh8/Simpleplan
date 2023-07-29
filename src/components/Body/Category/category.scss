@@ -1,0 +1,34 @@
+.cate-container{
+   margin-top: 20px ;
+   h3{
+    margin-bottom: 40px;
+    color:#2430A0;
+   }
+  
+}
+.img-card{
+    border-radius: 10px;
+    width:18rem;
+    margin-bottom:30px;
+}
+
+
+.card{
+    border:none;
+    .cate-cards{
+        height:100%;
+        border-radius: 10px;
+    }
+    .cate-cards:hover{
+        border:2px solid skyblue;
+    }
+    button{
+       border-radius: 5px;
+       margin-top: 6px;
+       border: none;
+       background-color: white;
+        }
+        button:hover{
+            border:2px solid skyblue;
+        }
+}
