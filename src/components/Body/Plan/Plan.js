@@ -12,8 +12,7 @@ const Plan = () => {
         </span>
         
       <p>Choose from veraity of classes from over the world</p>
-      <div style={{display:"flex",justifyContent:"space-between"}}>
-        
+      <div className='plan-comp'>
         <Plancomp />
         <Plancomp />
         <Plancomp />

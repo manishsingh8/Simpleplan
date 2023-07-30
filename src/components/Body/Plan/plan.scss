@@ -18,3 +18,21 @@
 p{
     color:#51557D;
 }
+
+.plan-comp{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:900px) {
+          
+    .plan-container{
+        height: auto;
+        width: 100%;
+    }
+    .plan-comp{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+    }
+}
