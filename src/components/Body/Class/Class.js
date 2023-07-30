@@ -7,17 +7,17 @@ import img3 from "../../../images/pc1.avif";
 import img4 from "../../../images/pc2.jpg";
 import img5 from "../../../images/teacher.jpg";
 import img6 from "../../../images/tradi.jpg";
-import LoveCon from "./LoveContainer/LoveCon";
+import LoveCon from "./LoveCommunity/LoveCon";
 
 
 const Class = () => {
   const images = [
-    { image: img1, name: "Lorem ipsum dolor sit  amet consectetur adipisicing elit Beatae" },
-    { image: img2, name: "Lorem ipsum dolor sit  amet consectetur adipisicing elit Beatae" },
-    { image: img3, name: "Lorem ipsum dolor sit  amet consectetur adipisicing elit Beatae" },
-    { image: img4, name: "Lorem ipsum dolor sit  amet consectetur adipisicing elit Beatae" },
-    { image: img5, name: "Lorem ipsum dolor sit  amet consectetur adipisicing elit Beatae" },
-    { image: img6, name: "Lorem ipsum dolor sit  amet consectetur adipisicing elit Beatae" },
+    { image: img1, name: "Cross country sharing of interesting and unique hobbies from across the world" },
+    { image: img2, name: "Transparent and structured fee payment options" },
+    { image: img3, name: "Interactive live online classes at your convenient time slots" },
+    { image: img4, name: "Age no bar for enroling into your cherished hobby or activity classes" },
+    { image: img5, name: "Learning from passionate, talented and trusted teachers" },
+    { image: img6, name: "Age no bar for enroling into your cherished hobby or activity classes" },
   ];
   
   return (
