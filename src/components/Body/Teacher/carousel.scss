@@ -49,6 +49,22 @@
        border: none;
        background-color: white;
         }
-        button:hover{
-            border:2px solid skyblue;
+
+
+        @media screen and (max-width:900px) {
+            .slider-container{
+                overflow: hidden;
+                height: auto;
+            }
+            .carousel-container{
+                display:flex;
+                flex-direction: column;
+                overflow: hidden;
+            }
+            .pre{
+                display: none;
+            }
+            .next{
+                display: none;
+            }
         }

@@ -61,8 +61,8 @@ const Slider = () => {
           ))}
       </div>
         <div className="slider-controls">
-        <button className="pre" onClick={handlePrev}><i className="fa-solid fa-circle-chevron-left"></i></button>
-        <button className="next" onClick={handleNext}><i className="fa-solid fa-circle-chevron-right"></i></button>
+        <button className="pre" onClick={handlePrev}><i className="fa-solid fa-circle-chevron-left fa-beat fa-2xl"></i></button>
+        <button className="next" onClick={handleNext}><i className="fa-solid fa-circle-chevron-right fa-beat fa-2xl"></i></button>
       </div>
     </div>
   );
