@@ -1,10 +1,12 @@
 import React from "react";
 import "../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-
-import lib from "../../../images/library.jpg"; // Replace with your image URLs
-import plant from "../../../images/plant.png"; // Replace with your image URLs
-import write from "../../../images/writing.jpg"; // Replace with your image URLs
+import lib from "../../../images/library.jpg"; 
+import plant from "../../../images/plant.png"; 
+import write from "../../../images/writing.jpg"; 
 import "./blog.scss";
+
+
+
 
 const YourComponent = () => {
   return (
@@ -12,7 +14,6 @@ const YourComponent = () => {
       <h3>
         Our blogs <a href="">SHOW ALL</a>
       </h3>
-
       <div className="blog-card">
         <div className="card" style={{ width: "18rem" }}>
           <img
@@ -74,19 +75,19 @@ const YourComponent = () => {
         </div>
       </div>
       <div className="blog">
-      <div className="blog-foot">
-        <h3>
-         Start learning new skills today and<br/>pursue your passion 
-        </h3>
-        <p>
-         join the community of global learners and start exploring today.
-        </p>
-        <span>
-        <input type="text" placeholder="Enter your email"/>
-        <button>GET STARTED</button>
-        </span>
-      </div>
-
+        <div className="blog-foot">
+          <h3>
+            Start learning new skills today and<br />
+            pursue your passion
+          </h3>
+          <p>
+            join the community of global learners and start exploring today.
+          </p>
+          <span>
+            <input  type="text" placeholder="Enter your email" className="blog-input" />
+            <button className="blog-button">GET STARTED <i class="fa-solid fa-circle-arrow-right fa-fade" /></button>
+          </span>
+        </div>
       </div>
     </div>
   );
