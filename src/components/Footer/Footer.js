@@ -40,11 +40,14 @@ const Footer = () => {
           <p>Tech</p>
           <h6>Become A Teacher</h6>
         </div>
-        <div class="card" >
-          <img src={img} class="card-img" alt="..." />
+        <div className="card" >
+          <img src={img} className="card-img" alt="..." />
         </div>
       </div>
         <hr />
+ 
+    {/* footer icons */}
+    
       <div className="footer-inner2">
         <div>
             @ Project 2023 All rights reseverd.

@@ -50,3 +50,22 @@ hr{
     border: 1px solid #51557D;;
     width:100%;
 }
+
+@media screen and (max-width:900px) {
+    .footer-inner1{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-inner2{
+        width:100%;
+        display: flex;
+        flex-direction: column;  
+    }
+    .icons{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+   
+}
