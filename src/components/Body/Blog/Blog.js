@@ -1,10 +1,9 @@
 import React from "react";
 import "../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import lib from "../../../images/library.jpg"; 
-import plant from "../../../images/plant.png"; 
-import write from "../../../images/writing.jpg"; 
+import lib from "../../../images/library.jpg";
+import plant from "../../../images/plant.png";
+import write from "../../../images/writing.jpg";
 import "./blog.scss";
-
 
 const Blog = () => {
   return (
@@ -79,17 +78,20 @@ const Blog = () => {
       {/* Blog section footer */}
       <div className="blog">
         <div className="blog-foot">
-          <h3>
-            Start learning new skills today and<br />
-            pursue your passion
-          </h3>
+          <h3>Start learning new skills today and pursue your passion</h3>
           <p>
             join the community of global learners and start exploring today.
           </p>
           {/* Input and button for subscription */}
           <span>
-            <input  type="text" placeholder="Enter your email" className="blog-input" />
-            <button className="blog-button">GET STARTED <i class="fa-solid fa-circle-arrow-right fa-fade" /></button>
+            <input
+              type="text"
+              placeholder="Enter your email"
+              className="blog-input"
+            />
+            <button className="blog-button">
+              GET STARTED <i class="fa-solid fa-circle-arrow-right fa-fade" />
+            </button>
           </span>
         </div>
       </div>
