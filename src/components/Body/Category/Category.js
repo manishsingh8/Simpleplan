@@ -12,14 +12,14 @@ import "./category.scss";
 
 const Category = () => {
   const images = [
-    { image:img1, name: "Language" },
-    { image:img2, name: "Art & Craft" },
-    { image:img3, name: "Academic" },
-    { image:img4, name: "Study" },
-    { image:img5, name: "Music" },
-    { image:img6, name: "Back to Roots" },
-    { image:img7, name: "Cooking" },
-    { image:img8, name: "Yoga" },
+    { image: img1, name: "Language" },
+    { image: img2, name: "Art & Craft" },
+    { image: img3, name: "Academic" },
+    { image: img4, name: "Study" },
+    { image: img5, name: "Music" },
+    { image: img6, name: "Back to Roots" },
+    { image: img7, name: "Cooking" },
+    { image: img8, name: "Yoga" },
   ];
 
   return (
@@ -29,9 +29,9 @@ const Category = () => {
         <div className="row">
           {images.map((imageName, index) => (
             <div
-              className="col-3 d-flex"
               key={index}
-              style={{ flexDirection: "column" }}
+              className="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4"
+              style={{ display: "flex", flexDirection: "column" }}
             >
               <div className="card flex-fill img-card">
                 <img
@@ -39,11 +39,10 @@ const Category = () => {
                   className="card-img-top cate-cards"
                   alt={`Image ${index + 1}`}
                 />
-              <button>{imageName.name}</button>
+                <button>{imageName.name}</button>
               </div>
             </div>
           ))}
-          <div className="col-3"></div>
         </div>
       </div>
     </div>

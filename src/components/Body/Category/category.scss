@@ -1,8 +1,10 @@
 .cate-container{
-   margin-top: 20px ;
+   margin-top: 40px ;
    h3{
     margin-bottom: 40px;
     color:#2430A0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
    }
   
 }
@@ -12,8 +14,6 @@
     margin-bottom:30px;
    
 }
-
-
 .card{
     border:none;
     .cate-cards{
@@ -29,8 +29,24 @@
        margin-top: 6px;
        border: none;
        background-color: white;
+       font-family: 'Poppins', sans-serif;
+       font-weight: 600;
+       color:#1B1B1B;
         }
         button:hover{
             border:2px solid skyblue;
+            box-shadow: 4px 2px 8px 1px rgb(155, 153, 153);
         }
+}
+
+@media screen and (max-width:900px) {
+    .cate-container{
+        height:auto;
+        width: 100%;
+    }
+    .row{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
