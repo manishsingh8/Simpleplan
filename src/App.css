@@ -1,17 +1,19 @@
-/* .App {
-  text-align: center;
+.App {
+     position: relative;  
+}
+
+
+/* .app-tooltip{
+  position: fixed;
+  bottom:500px;
+  right:100px;
+  font-size: 30px;
+  border-radius: 50%;
+  color:#2430A0;
+  cursor: pointer;
 } */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -34,5 +36,17 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width:900px) {
+  .app-tooltip{
+    position: fixed;
+    bottom:100px;
+    right:10px;
+    font-size: 30px;
+    border-radius: 50%;
+    color:#2430A0;
+    cursor: pointer;
   }
 }
