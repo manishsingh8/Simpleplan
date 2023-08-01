@@ -2,9 +2,7 @@
   margin-top: 40px;
   .column1 {
     .sec-img {
-      // object-fit: cover;
       width: 100%;
-
       img {
         max-width: 100%;
         height: 300px;
@@ -16,16 +14,29 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     p {
       text-align: justify;
+    }
+    ul{
+      list-style: none;
+      li{
+        color:#51557D;
+        font-family: 'Nunito Sans', sans-serif; ;
+      }
+      li i{
+       margin-right: 15px;
+       color:#FFB051;
+       font-size:10px;
+      }
     }
     button {
       background-color: #2430a0;
       color: white;
       border-radius: 15px;
       width: 170px;
-      
+      padding: 3px;
+      border: none;
+
     }
   }
 }
