@@ -1,0 +1,99 @@
+/* Header.css */
+.header {
+    background-color: white;
+    color:#2430A0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  
+ .dropdown{
+  .btn{
+    color:#2430A0;
+    font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  .dropdown-menu{
+     background-color: #E9EFFF;
+     .show-list{
+      position: relative;
+      height:100%;
+      width:800px;
+      a:hover{
+        color:#FB7356;
+      }
+     }
+    .show-img{
+      position: absolute;
+      top:25px;
+      left:400px;
+      height:80%;
+      width:40%;
+      // border:2px solid red;
+    }
+    .dropdown-item{
+      color:#2430A0;
+      font-weight: 600;
+    }
+
+   }
+ }
+  
+  .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tech {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: 4px;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #0e20b4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 23px;
+  }
+  
+  .button:hover {
+    background-color:white;
+    color:#2430A0;
+    border:1px solid #2430A0;
+  }
+  
+
+  @media screen and (max-width:900px) {
+          
+       .header{
+        width: 100%;
+          .left-section{
+            .dropdown{
+              display: none;
+            }
+          }
+        .right-section{
+            .tech{
+              display: none;
+            }
+        }
+       }
+  }
