@@ -1,8 +1,10 @@
 .blog-container{
-    margin-bottom: 30px ;
+    margin-top: 40px ;
     h3{
         color:#2430A0;
         margin-bottom: 40px;
+        font-family:'Poppins', sans-serif;
+        font-weight: 700;
         a{
             font-size: 12px;
             color:#E25753;
@@ -19,6 +21,7 @@
    }
 }
 .card{
+    width:18rem;
     .card-body{
         p{
             font-size: 12px;
@@ -85,8 +88,6 @@
     }
 }
 
-
-
 @media screen and (max-width:900px) {
      .blog-container{
         width: 100%;
@@ -97,6 +98,10 @@
         flex-direction: column;
         .card{
             margin-bottom: 20px;
+            width: 100%;
+          .card-img-top{
+            width:100%;
+          }
         }
     }
     .blog{
@@ -114,6 +119,7 @@
             }
             .blog-button{
                 width: 50%;
+                margin-top: 5px;
                 margin-left: 10px;
             }
         }
