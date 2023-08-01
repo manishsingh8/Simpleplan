@@ -1,7 +1,15 @@
 .class-mainbody {
+  margin-top: 40px;
   h3 {
     color: #2430a0;
     margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+  p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+   color:#1B1F49;
   }
 }
 
@@ -30,16 +38,17 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 720px) {
   .class-card {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     .card-img {
-      height: 140px;
-      width: 140px;
+      height: 200px;
+      width: 200px;
     }
   }
 }
