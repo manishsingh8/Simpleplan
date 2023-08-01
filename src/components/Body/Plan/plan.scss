@@ -3,9 +3,30 @@
     span{
         display: flex;
         justify-content: space-between;
-        
+        div{
+            .btn1 {
+                border:none;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                background-color: white;
+                color: blue;
+                padding: 7px;
+                background-color:#E9EFFF;
+              }
+              .btn2 {
+                border:none;
+                padding: 7px;
+                background-color: blue;
+                color: white;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+                border-left: 1px solid black;
+              }
+        }
     }
     h3{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
         color:#2430A0;
         a{
             font-size: 14px;
@@ -17,6 +38,9 @@
 }
 p{
     color:#51557D;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .plan-comp{
@@ -29,10 +53,20 @@ p{
     .plan-container{
         height: auto;
         width: 100%;
+        span{
+            display: flex;
+            flex-wrap: wrap;
+            div{
+                display: flex;
+            }
+        }
     }
     .plan-comp{
           width: 100%;
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
+          flex-wrap: wrap;
     }
 }
+
+

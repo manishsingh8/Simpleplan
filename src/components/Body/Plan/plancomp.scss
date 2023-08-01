@@ -1,17 +1,12 @@
 .plan-card{
     height:auto;
     width:260px;
-    border-radius: 10px;
-    
-    // .plan-inner{
-    // background-color: #E9EFFF;
-    // border-radius: 10px;
-        
-    // width: 100%;
-      
+    border-radius: 10px; 
+    background-color: #E9EFFF;    
      a{
         width:100%;
         background-color: #2430A0;
+        font-family: 'Nunito Sans', sans-serif;
        }
 
        p{
@@ -21,11 +16,20 @@
        }
        h6{
         padding-left:4px ;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
        }
   }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:650px) {
     .plan-card{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:450px) {
+    .plan-card{
+        width: 100%;
         margin-bottom: 20px;
     }
 }
