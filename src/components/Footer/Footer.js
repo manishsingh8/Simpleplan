@@ -1,5 +1,5 @@
 import React from "react";
-import './footer.css';
+import "./footer.scss";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
@@ -40,36 +40,31 @@ const Footer = () => {
           <p>Tech</p>
           <h6>Become A Teacher</h6>
         </div>
-        <div className="card" >
+        <div className="card">
           <img src={img} className="card-img" alt="..." />
         </div>
       </div>
-        <hr />
- 
-    {/* footer icons */}
-    
+      <hr />
+
       <div className="footer-inner2">
-        <div>
-            @ Project 2023 All rights reseverd.
-        </div>
-        <div>
-            Made with ❤️ SimplePlan
-        </div>
+        <div>@ Project 2023 All rights reseverd.</div>
+        <div>Made with ❤️ SimplePlan</div>
         <div className="icons">
+          {/* footer icons */}
           <a href="https://www.facebook.com/" target="blank">
-            <BsFacebook style={{color:"#3b5998"}} />
+            <BsFacebook style={{ color: "#3b5998" }} />
           </a>
           <a href="https://twitter.com/" target="blank">
-            <BsTwitter style={{color:"#00acee "}} />
+            <BsTwitter style={{ color: "#00acee " }} />
           </a>
           <a href="https://www.instagram.com/" target="blank">
-            <BsInstagram style={{color:"#fa7e1e "}} />
+            <BsInstagram style={{ color: "#fa7e1e " }} />
           </a>
           <a href="https://github.com/" target="blank">
-            <BsGithub style={{color:"#3b5998 "}} />
+            <BsGithub style={{ color: "#3b5998 " }} />
           </a>
           <a href="https://www.youtube.com/" target="blank">
-            <BsYoutube style={{color:" #CD201F "}} />
+            <BsYoutube style={{ color: " #CD201F " }} />
           </a>
         </div>
       </div>
