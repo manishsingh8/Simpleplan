@@ -4,8 +4,8 @@ import Section from './Section';
 
 const Teacher = () => {
   return (
-    <div>
-        <h1>Meet our teachers</h1>
+    <div style={{marginTop:"40px"}}>
+        <h3 style={{color:"#2430A0" ,fontFamily:"font-family: 'Poppins', sans-serif;",fontWeight:"700"}}>Meet our teachers</h3>
       <Carousel />
       <Section />
     </div>
