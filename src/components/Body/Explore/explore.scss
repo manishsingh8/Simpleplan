@@ -8,6 +8,10 @@
         justify-content: center;
         text-align: center;
         color:#2430A0;
+        h3{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+        }
     }
     .explore-card{
         width:100%;
@@ -37,7 +41,7 @@
             h6{
                 color:#2430A0;
                 font-size:20px ;
-                font-weight: 700;
+                font-weight: 600;
                 margin-top: 20px;
                 font-family: 'Poppins', sans-serif;
             }
@@ -53,7 +57,7 @@
     }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:720px) {
     .explore-container{
         width: 100%;
       .explore-card{
