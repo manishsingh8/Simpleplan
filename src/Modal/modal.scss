@@ -1,0 +1,40 @@
+
+.main {
+    position: fixed;
+    bottom:80px;
+    right: 60px;
+  }
+  
+  .msg{
+    position: fixed;
+    bottom: 20px;
+       display: flex;
+       justify-content: space-between;
+      .inputfield{
+        border-radius: 20px;
+        padding-left: 10px;
+        width:90%;
+        border: none;
+        outline: none;
+        background-color:  #E9EFFF;
+
+      }
+      .send-btn{
+        border-radius: 50%;
+        background-color:#2430a0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:none;
+      }
+  }
+
+  @media screen and (max-width:700px) {
+    .main{
+        position: fixed;
+    bottom:80px;
+    right: 20px;
+    }
+    
+  }
+  
