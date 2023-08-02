@@ -20,6 +20,12 @@
         font-weight: 600;
        }
   }
+ @media screen and (max-width:900px) {
+    .plan-card{
+        // width: 45%;
+        margin-bottom: 20px;
+    }
+ }
 
 @media screen and (max-width:650px) {
     .plan-card{
