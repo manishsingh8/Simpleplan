@@ -1,4 +1,15 @@
-
+.box-inner{
+  height: "500px";
+  overflow-y: "auto";
+  .box-header{
+    width:100%;
+    background-color:#2430a0;
+    color: white;
+    text-align:center;
+    padding:8px;
+    border-radius:5px;
+  }
+}
 .main {
     position: fixed;
     bottom:80px;

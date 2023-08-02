@@ -7,7 +7,6 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import "./modal.scss";
 
-
 const style = {
   position: "absolute",
   top: "50%",
@@ -58,19 +57,8 @@ const ModalComp = () => {
       >
         <Fade in={open}>
           <Box sx={style}>
-            <div style={{ height: "500px", overflowY: "auto" }}>
-              <p
-                style={{
-                  width: "100%",
-                  backgroundColor: "#023452",
-                  color: "white",
-                  textAlign: "center",
-                  padding: "10px",
-                  borderRadius: "5px",
-                }}
-              >
-                SimplePlan❤️
-              </p>
+            <div className="box-inner">
+              <p className="box-header">SimplePlan❤️</p>
               <p>
                 Hii... <br /> I'm Joya <br /> How may I assist you
               </p>
