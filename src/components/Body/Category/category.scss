@@ -23,8 +23,12 @@
     .cate-cards:hover{
         border:2px solid skyblue;
         box-shadow: 4px 2px 8px 1px rgb(155, 153, 153);
+        transform: scale(1.1);
+      
+        
     }
     button{
+      
        border-radius: 5px;
        margin-top: 6px;
        border: none;
@@ -37,6 +41,15 @@
             border:2px solid skyblue;
             box-shadow: 4px 2px 8px 1px rgb(155, 153, 153);
         }
+}
+
+@media (min-width:1200px) and (max-width:1460px){
+    .img-card{
+        width:235px  !important ;
+        .cate-cards{
+            width: 100%;
+        }
+    }
 }
 
 @media screen and (max-width:900px) {
