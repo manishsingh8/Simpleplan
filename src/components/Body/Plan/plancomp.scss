@@ -3,11 +3,17 @@
     width:260px;
     border-radius: 10px; 
     background-color: #E9EFFF;    
-     a{
-        width:100%;
-        background-color: #2430A0;
-        font-family: 'Nunito Sans', sans-serif;
-       }
+    .enroll-btn{
+        width: 100%;
+        border-radius: 5px;
+        background-color:  #2430A0;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 6px;
+        border: none;
+    }
 
        p{
         font-size: 12px;
@@ -15,11 +21,19 @@
         color:#3E3E3E;
        }
        h6{
-        padding-left:4px ;
+        margin: 0px;
+        padding: 0px;
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
        }
   }
+
+@media (min-width:900px) and (max-width:1320px){
+    .plan-card{
+        width:23%;
+    }
+}
+
  @media screen and (max-width:900px) {
     .plan-card{
         // width: 45%;
